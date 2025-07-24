@@ -1,0 +1,14 @@
+4. Image Caption Generator
+Objective:
+Generate human-like captions for images using Deep Learning.
+Tech Stack:
+TensorFlow/Keras, CNN (InceptionV3), LSTM, Flickr8k dataset
+Description:
+The model uses InceptionV3 as an image encoder to extract image features and an LSTM-based decoder to generate textual descriptions. It learns from image-caption pairs and can describe new images with captions like: "A dog playing with a ball in the park."
+Key Features:
+•	Encoder-Decoder architecture
+•	Tokenization and padding for language modeling
+•	Beam search for better caption generation
+•	Optional UI for image upload and output display
+Use Case:
+Used in accessibility tools or photo organization apps (e.g., Google Photos).
